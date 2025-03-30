@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.blocLateral{
+  width: 20%;
+  max-height: 80%;
+  padding: 1%;
+  float: right;
+  background-color: rgb(63 63 121 / 20%);
+  border-radius: 15px;
+  border: 1px solid #26374f;
+}
+
+.exProjet{
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 15px;
+  height: 150px;
+  margin-block: 10px;
+}
+
+.titreRapideProjet{
+  font-weight: bold;
+  font-size: large;
+}
+
+.descriptionRapideProjet{
+  color: white;
+}
+
+.sectionRapideProjet{
+  height: 110px;
+}
+
+.textRapideProjet{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.imgRapideProjet{
+  width: 30%;
+}
+
+.langagesUsedRapideProjet{
+  width: 100%;
+  height: 36px;
+  display: flex;
+  gap: 2px;
+}
+
+.langagesUsedRapideProjet img{
+  width: 32px;
+  height: 32px;
+}
+
+.cartePresUgo{
+  border: 1px solid #26374f;
+  background-color: rgb(63 63 121 / 20%);
+  justify-self: center;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.textPresUgo{
+  flex: 2;
+  padding: 20px;
+}
+
+.titrePresUgo{
+  font-size: xx-large;
+}
+
+.imgPresUgo{
+  flex: 1;
+}
+
+.navbarCustom{
+  background-color: rgba(35,48,70,255) !important;
+  border-bottom: 1px solid rgb(11 22 125) !important;
+}
+
+.blocParcoursUgo{
+  border: 1px solid #26374f;
+  background-color: rgb(63 63 121 / 20%); 
+  aspect-ratio: 1/1;
+  width: 220px;
+  height: 220px;
+  padding-block: 5px;
+  padding-inline: 25px;
+  border-radius: 5px;
+}
+
+.titreBlocParcoursUgo{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.sousTitreBlocUParcoursgo{
+  font-weight: bold;
+}
+
+.texteBlocParcoursUgo{
+  font-size: 12px;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rowParcoursUgo{
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.btn-voir-plus{
+  background-color: #0a1931;
+  color: rgb(255, 215, 0);
+  border-radius: 10px;
+  border: 1px solid #020b1b;
+}
+
+.monCV, .hardSkills{
+  margin-top: 40px;
+}
