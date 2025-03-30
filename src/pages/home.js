@@ -73,12 +73,12 @@ const HomePage = () => {
           <p>Bienvenue sur mon portfolio !</p>
           <p style={{textAlign: "justify"}}>Etudiant en troisième année de BUT Informatique en alternance à Champs-sur-Marne, spécialisé en développement web. Passionné par la technologie et la cybersécurité, je conçois des applications performantes et sécurisées. Basé en région parisienne, j’ai 20 ans et je suis toujours à la recherche de nouveaux défis pour affiner mes compétences.</p>
           <p style={{textAlign: "justify"}}>Pour en savoir plus :</p>
-          <p style={{display: "flex", gap: "10px"}}>
+          <div style={{display: "flex", gap: "10px"}}>
             <a href="https://www.linkedin.com/in/ugo-scotto-lomassese-33ab98265/" style={{color: "rgb(255, 215, 0)"}} target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
             <a href="https://github.com/guguscrtl" target="_blank"><i class="fa fa-github fa-2x" style={{color: "rgb(255, 215, 0)"}}></i></a>
-          </p>
+            <ModalMail/>
           </div>
-          <ModalMail/>
+          </div>
           <img className="imgPresUgo" src={photoUgo}/>
         </div>
       </header>
