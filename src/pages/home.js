@@ -14,6 +14,7 @@ import cv_fr from "../pages/CV_2025-03-07_Ugo_Scotto_Lomassese.pdf";
 import en_icone from "./icones/royaume-uni.png";
 import fr_icone from "./icones/france.png";
 import Skills from "./Skills.js";
+import ScrollLinked from "./scrollLinked.js";
 
 const text = "Ugo Scotto Lomassese";
 
@@ -26,6 +27,7 @@ const HomePage = () => {
     <div style={{ backgroundColor: "#0a1931", color: "#FFD700", minHeight: "100vh" }}>
       {/* Navigation Bar */}
       <nav className="navbarCustom sticky-top navbar navbar-expand-lg navbar-dark">
+      <ScrollLinked/>
         <div className="container">
           <a className="navbar-brand" href="#">Mon Portfolio</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -74,9 +76,9 @@ const HomePage = () => {
           <p style={{display: "flex", gap: "10px"}}>
             <a href="https://www.linkedin.com/in/ugo-scotto-lomassese-33ab98265/" style={{color: "rgb(255, 215, 0)"}} target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
             <a href="https://github.com/guguscrtl" target="_blank"><i class="fa fa-github fa-2x" style={{color: "rgb(255, 215, 0)"}}></i></a>
-            <ModalMail/>
           </p>
           </div>
+          <ModalMail/>
           <img className="imgPresUgo" src={photoUgo}/>
         </div>
       </header>
@@ -131,55 +133,11 @@ const HomePage = () => {
           </div>
           <img className="imgRapideProjet" src={logoMtc} alt="Logo Make The Cube" style={{ height: "auto" }} />
         </div>
-        <div className="d-flex exProjet">
-          <div className="textRapideProjet">
-            <h3 className="titreRapideProjet">Projet Make The Cube</h3>
-            <p className="descriptionRapideProjet">
-              Développement web d'un site de réservation de salles
-              <br />
-              Langages: React TS, Python Django, MySQL
-            </p>
-          </div>
-          <img className="imgRapideProjet" src={logoMtc} alt="Logo Make The Cube" style={{ height: "auto" }} />
-        </div>
-        <div className="d-flex exProjet">
-          <div className="textRapideProjet">
-            <h3 className="titreRapideProjet">Projet Make The Cube</h3>
-            <p className="descriptionRapideProjet">
-              Développement web d'un site de réservation de salles
-              <br />
-              Langages: React TS, Python Django, MySQL
-            </p>
-          </div>
-          <img className="imgRapideProjet" src={logoMtc} alt="Logo Make The Cube" style={{ height: "auto" }} />
-        </div>
-        <div className="d-flex exProjet">
-          <div className="textRapideProjet">
-            <h3 className="titreRapideProjet">Projet Make The Cube</h3>
-            <p className="descriptionRapideProjet">
-              Développement web d'un site de réservation de salles
-              <br />
-              Langages: React TS, Python Django, MySQL
-            </p>
-          </div>
-          <img className="imgRapideProjet" src={logoMtc} alt="Logo Make The Cube" style={{ height: "auto" }} />
-        </div>
-        <div className="d-flex exProjet">
-          <div className="textRapideProjet">
-            <h3 className="titreRapideProjet">Projet Make The Cube</h3>
-            <p className="descriptionRapideProjet">
-              Développement web d'un site de réservation de salles
-              <br />
-              Langages: React TS, Python Django, MySQL
-            </p>
-          </div>
-          <img className="imgRapideProjet" src={logoMtc} alt="Logo Make The Cube" style={{ height: "auto" }} />
-        </div>
       </div>
 
       {/* About Section */}
       <section id="about" className="container py-5">
-        <h2 className="text-center">À propos de moi</h2>
+        <h2 className="text-center">Mon parcours</h2>
         <p className="text-center">
           Je suis un développeur spécialisé en cybersécurité et développement web, avec un fort intérêt pour les systèmes sécurisés et la performance des applications.
         </p>
