@@ -1,9 +1,8 @@
 const toolIcons = {
-    Wireshark: require("./icones/prog/Wireshark.png"),
-    Git: require("./icones/prog/git.png"),
-    Jira: require("./icones/prog/jira.png"),
-    Postman: require("./icones/prog/postman.webp"),
-    Figma: require("./icones/prog/figma.webp"),
+    Git: "devicon-git-plain",
+    Jira: "devicon-jira-plain",
+    Postman: "devicon-postman-plain",
+    Figma: "devicon-figma-plain",
 };
 
 export default toolIcons;

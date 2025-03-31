@@ -15,6 +15,7 @@ import en_icone from "./icones/royaume-uni.png";
 import fr_icone from "./icones/france.png";
 import Skills from "./Skills.js";
 import ScrollLinked from "./scrollLinked.js";
+import ProjectList from "./projectList.js";
 
 const text = "Ugo Scotto Lomassese";
 
@@ -25,6 +26,8 @@ const HomePage = () => {
   const handleShow = () => setShow(true);
   return (
     <div style={{ backgroundColor: "#0a1931", color: "#FFD700", minHeight: "100vh" }}>
+      <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
       {/* Navigation Bar */}
       <nav className="navbarCustom sticky-top navbar navbar-expand-lg navbar-dark">
       <ScrollLinked/>
@@ -76,7 +79,7 @@ const HomePage = () => {
           <div style={{display: "flex", gap: "10px"}}>
             <a href="https://www.linkedin.com/in/ugo-scotto-lomassese-33ab98265/" style={{color: "rgb(255, 215, 0)"}} target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
             <a href="https://github.com/guguscrtl" target="_blank"><i class="fa fa-github fa-2x" style={{color: "rgb(255, 215, 0)"}}></i></a>
-            <ModalMail/>
+            <ModalMail/>  
           </div>
           </div>
           <img className="imgPresUgo" src={photoUgo}/>
@@ -94,46 +97,6 @@ const HomePage = () => {
           <Button variant="secondary" onClick={handleClose}>Fermer</Button>
         </Modal.Footer>
       </Modal>
-
-      <div className="blocLateral mx-3 align-items-center justify-content-between">
-        <h2 className="titreMesProjets text-center">Mes projets</h2>
-        <div className="d-flex exProjet">
-          <div className="textRapideProjet">
-            <h3 className="titreRapideProjet">Projet Make The Cube</h3>
-            <p className="descriptionRapideProjet">
-              Développement web d'un site de réservation de salles
-            </p>
-            <div className="langagesUsedRapideProjet">
-              <img src={logoTS} alt="Logo Typescript"/>
-              <img src={logoDjango} alt="Logo Django"/>
-              <img src={logoMySQL} alt="Logo MySQL"/>
-            </div>
-          </div>
-          <img className="imgRapideProjet" src={logoMtc} alt="Logo Make The Cube" style={{ height: "auto" }} />
-        </div>
-        <div className="d-flex exProjet">
-          <div className="textRapideProjet">
-            <h3 className="titreRapideProjet">Projet Make The Cube</h3>
-            <p className="descriptionRapideProjet">
-              Développement web d'un site de réservation de salles
-              <br />
-              Langages: React TS, Python Django, MySQL
-            </p>
-          </div>
-          <img className="imgRapideProjet" src={logoMtc} alt="Logo Make The Cube" style={{ height: "auto" }} />
-        </div>
-        <div className="d-flex exProjet">
-          <div className="textRapideProjet">
-            <h3 className="titreRapideProjet">Projet Make The Cube</h3>
-            <p className="descriptionRapideProjet">
-              Développement web d'un site de réservation de salles
-              <br />
-              Langages: React TS, Python Django, MySQL
-            </p>
-          </div>
-          <img className="imgRapideProjet" src={logoMtc} alt="Logo Make The Cube" style={{ height: "auto" }} />
-        </div>
-      </div>
 
       {/* About Section */}
       <section id="about" className="container py-5">
@@ -248,6 +211,9 @@ const HomePage = () => {
               </p>
           </div>
           <Skills/>
+        </div>
+        <div id="projects">
+          <ProjectList/>
         </div>
       </section>
     </div>
