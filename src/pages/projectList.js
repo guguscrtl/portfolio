@@ -236,17 +236,11 @@ function ProjectList() {
           <Modal.Body className="modal-body-custom">
             <img src={selectedProject?.image} alt={selectedProject?.title} className="img-fluid mb-3 modal-image" />
             <p className="modal-description">{selectedProject?.details}</p>
-            {/* <h5 className="text-warning">Technologies utilisées :</h5>
-            <div className="d-flex justify-content-center">
-              {selectedProject?.technologies.map((tech, index) => (
-                <img key={index} src={tech} alt="Tech logo" className="tech-logo mx-2" />
-              ))}
-            </div> */}
             <div className="additional-info">
               <p><strong>Année :</strong> {selectedProject?.year}</p>
               <p><strong>Langages :</strong> 
-                {selectedProject?.languages.map((language) => (
-                  <i key={language} className={`devicon ${skillIcons[language]} skill-icon`} />
+                {selectedProject?.technologies.map((techno) => (
+                  <i key={techno} className={`devicon ${techno} skill-icon`} />
                 ))}
               </p>
               <p><strong>Compétences développées :</strong> {selectedProject?.skills.join(', ')}</p>
