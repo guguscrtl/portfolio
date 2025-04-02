@@ -7,7 +7,7 @@ import wireshark from "./icones/prog/wireshark.svg"
 const Marquee = ({ items }) => {
   return (
     <motion.div
-    className="marquee d-flex gap-2"
+    className="marquee  d-flex flex-column flex-md-row align-items-center gap-2"
     style={{justifyContent: "space-evenly"}}
     animate={{ x: ["-2%", "2%", "-2%"] }} // Mouvement gauche-droite
     transition={{

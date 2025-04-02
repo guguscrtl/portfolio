@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import { Button, Modal, Card, Container, Row, Col } from "react-bootstrap";
-import logoTS from "../img/typescript.png"; // Exemple d'import d'images
-import logoDjango from "../img/django-icon.svg";
-import logoMySQL from "../img/mysql-logo.svg";
 import logoMtc from "../img/logo_mcube.png";
 import logoUnesco from "../img/UNESCO_Logo.png";
 import logoebrigade from "../img/ebrigade.png";
@@ -34,7 +31,7 @@ const academicProjects = [
       id: 2,
       title: "Projet MCN - Unesco",
       description: "Développement d'un site web de médiation culturel et numérique sur la ville de Tolède",
-      details: "En tant que chef de projet, j'ai dirigé une équipe pour la création d'un site web permettant de promouvoir les activités culturelles de Tolède. Nous avons utilisé HTML, CSS et PHP pour construire cette plateforme.",
+      details: "En tant que chef de projet, j'ai dirigé une équipe pour la création d'un site web permettant de promouvoir les activités culturelles de Tolède.",
       image: logoUnesco,
       technologies: [skillIcons.HTML, skillIcons.CSS, skillIcons.PHP],
       year: "2022-2023",
@@ -67,7 +64,7 @@ const academicProjects = [
       id: 5,
       title: "Projet de gestion de transactions bancaires",
       description: "Développement d'un site web de gestion des transactions bancaires",
-      details: "Ce projet consistait à créer une plateforme pour gérer les transactions bancaires, avec une interface en HTML, CSS, JS, PHP et une gestion de version avec Git.",
+      details: "Ce projet consistait à créer une plateforme pour gérer les transactions bancaires.",
       image: logomalibank,
       technologies: [skillIcons.HTML, skillIcons.CSS, skillIcons.JS, skillIcons.PHP],
       year: "2023-2024",
@@ -78,7 +75,7 @@ const academicProjects = [
       id: 6,
       title: "Jeu sémantique",
       description: "Développement d'un jeu basé sur la similarité des mots",
-      details: "Projet de développement d'un jeu où les joueurs doivent trouver des mots similaires. Ce projet utilise React, TypeScript, Node.js, C et Java.",
+      details: "Projet de développement d'un jeu où les joueurs doivent trouver des mots similaires.",
       image: logosemantix,
       technologies: [skillIcons.React, skillIcons.TS, skillIcons.Node, skillIcons.Java, skillIcons.C],
       year: "2023-2024",
@@ -125,7 +122,7 @@ const academicProjects = [
       id: 1,
       title: "eBrigade",
       description: "Développement d'un ERP pour casernes et hôpitaux",
-      details: "Ce projet en entreprise consistait à développer un intranet ERP pour les pompiers et les associations. J'ai participé au développement avec une équipe, en utilisant HTML, CSS, JS, PHP et MySQL.",
+      details: "Ce projet en entreprise consistait à développer un intranet ERP pour les pompiers et les associations.",
       image: logoebrigade,
       technologies: [skillIcons.HTML, skillIcons.CSS, skillIcons.JS, skillIcons.php, skillIcons.SQL],
       year: "2023-2024",
