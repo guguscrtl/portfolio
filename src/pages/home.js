@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { motion } from "framer-motion";
 import photoUgo from "../img/photo_ugo-removebg-preview2.png";
 import 'font-awesome/css/font-awesome.min.css';
@@ -12,6 +13,7 @@ import fr_icone from "./icones/france.png";
 import Skills from "./Skills.js";
 import ScrollLinked from "./scrollLinked.js";
 import ProjectList from "./projectList.js";
+import Footer from "./footer.tsx";
 
 const text = "Ugo Scotto Lomassese";
 
@@ -257,6 +259,7 @@ const HomePage = () => {
           <ProjectList/>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 };
