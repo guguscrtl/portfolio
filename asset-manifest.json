@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.99593fa5.css",
-    "main.js": "/portfolio/static/js/main.58104b03.js",
+    "main.js": "/portfolio/static/js/main.273ab4c6.js",
     "static/js/156.76d4ed6a.chunk.js": "/portfolio/static/js/156.76d4ed6a.chunk.js",
     "static/media/semantix.png": "/portfolio/static/media/semantix.2b8f08446c952d4f3a59.png",
     "static/media/CV_Ugo_Scotto_Lomassese_En.pdf": "/portfolio/static/media/CV_Ugo_Scotto_Lomassese_En.5f80dc5dfe23493d176b.pdf",
@@ -26,11 +26,11 @@
     "static/media/wireshark.svg": "/portfolio/static/media/wireshark.0ac4dee469b99caa34f3bb728325062b.svg",
     "index.html": "/portfolio/index.html",
     "main.99593fa5.css.map": "/portfolio/static/css/main.99593fa5.css.map",
-    "main.58104b03.js.map": "/portfolio/static/js/main.58104b03.js.map",
+    "main.273ab4c6.js.map": "/portfolio/static/js/main.273ab4c6.js.map",
     "156.76d4ed6a.chunk.js.map": "/portfolio/static/js/156.76d4ed6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99593fa5.css",
-    "static/js/main.58104b03.js"
+    "static/js/main.273ab4c6.js"
   ]
 }
