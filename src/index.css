@@ -99,6 +99,11 @@ header{
   border-bottom: 1px solid rgb(11 22 125) !important;
 }
 
+footer{
+  background-color: rgba(35,48,70,255) !important;
+  border-top: 1px solid rgb(11 22 125) !important;
+}
+
 .blocParcoursUgo{
   border: 1px solid #26374f;
   background-color: rgb(63 63 121 / 20%); 

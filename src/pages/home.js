@@ -45,7 +45,7 @@ const HomePage = () => {
           Parcours: "Réalisation d'applications"
         </>
       ),
-      details: "Le BUT Informatique m'a permis d’acquérir des compétences en développement logiciel, gestion de projet...",
+      details: "Le BUT Informatique m'a permis d’acquérir des compétences solides en développement logiciel, en gestion de projet et en conception d’architectures logicielles. J'ai travaillé sur des projets variés allant du développement web et mobile à l'administration de bases de données et à la cybersécurité. J'ai également appris à utiliser des méthodologies comme Agile et Waterfall, à collaborer efficacement en équipe et à rédiger de la documentation technique. Ces compétences me permettent aujourd’hui de concevoir des applications performantes, sécurisées et adaptées aux besoins des utilisateurs.",
     },
     {
       id: 3,
@@ -58,7 +58,7 @@ const HomePage = () => {
           Langages: HTML, CSS, JS, PHP
         </>
       ),
-      details: "Au sein de eBrigade, j’ai travaillé sur le développement d’un ERP destiné aux pompiers...",
+      details: "Au sein de eBrigade, j’ai participé au développement d'un ERP destiné à la gestion des casernes de pompiers, des hôpitaux et des associations. J’ai été impliqué dans la conception et l'implémentation de fonctionnalités en utilisant des technologies telles que PHP, JavaScript, et MySQL. J'ai contribué à la mise en place d'une interface utilisateur intuitive et à l’intégration de diverses fonctionnalités permettant la gestion des interventions, des stocks de matériel et des plannings. Mon travail a inclus la gestion des bases de données pour assurer une mise à jour en temps réel des informations essentielles, et la collaboration avec l’équipe pour optimiser les processus et améliorer l’efficacité de l'outil.",
     },
     {
       id: 4,
@@ -71,7 +71,7 @@ const HomePage = () => {
           Langages: HTML, CSS, JQuery, PHP, SQL
         </>
       ),
-      details: "Chez CAAS, je développe une plateforme intranet optimisant la gestion des documents d'assurance...",
+      details: "Chez CAAS, je développe une plateforme intranet dédiée à l'optimisation de la gestion des documents d'assurance. Cette plateforme permet aux utilisateurs internes de gérer, classer et partager des documents sensibles de manière sécurisée et efficace. Mon rôle implique la conception d'une architecture robuste en utilisant des technologies telles que PHP, SQL, et des frameworks front-end modernes. J’ai participé à la création de fonctionnalités comme la gestion des accès utilisateurs, le suivi des documents, et l'intégration de mécanismes de contrôle de version. De plus, j’ai travaillé à l'optimisation des performances de la plateforme pour garantir une expérience utilisateur fluide tout en respectant les normes de sécurité liées à la gestion de données sensibles.",
     },
   ];
   
